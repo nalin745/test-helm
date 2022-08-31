@@ -7,7 +7,7 @@
 name: Java CI with Gradle
 
 on: 
-  repository_dispatch:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   
